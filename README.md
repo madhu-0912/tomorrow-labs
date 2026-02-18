@@ -1,24 +1,24 @@
-# Tomorrow Labs
+# tonorrow-labs
 
-Tomorrow Labs is my personal innovation workspace where I design, build, and experiment with ideas across:
-
+A personal innovation lab for building and experimenting with:
 - Software Engineering
 - Machine Learning
-- Artificial Intelligence
-- Data Systems & Automation
-- Applied Research & Prototyping
+- AI/LLM Systems
+- Data Engineering & Automation
+- Prototypes and research-grade experiments
 
-This repository follows a structured monorepo approach where multiple independent projects live together, enabling reusable components, shared utilities, and consistent engineering practices.
+## Repo Structure
+This is a monorepo that hosts multiple independent projects.
 
-## Purpose
-To continuously learn, build, and innovate — turning ideas into real, working systems.
+- `projects/` — all runnable projects (software, ml, ai)
+- `shared/` — reusable libraries/utilities shared across projects
+- `docs/` — notes, architecture, setup guides
+- `templates/` — starter templates for new projects
 
-## Areas of Exploration
-- AI & LLM Systems
-- Machine Learning Pipelines
-- Intelligent Automation
-- Data Engineering
-- Experimental Prototypes
-- Scalable Software Systems
+## Conventions
+- Default branch: `dev`
+- Work happens on `feature/*` branches and is merged via PR into `dev`
+- Data and secrets are never committed (use `.env` and external storage)
 
-> Building today. Engineering tomorrow.
+## Goals
+Build practical, reusable systems and continuously learn by shipping real projects.
