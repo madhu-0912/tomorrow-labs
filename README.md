@@ -1,4 +1,4 @@
-# tonorrow-labs
+# tomorrow-labs
 
 A personal innovation lab for building and experimenting with:
 - Software Engineering
